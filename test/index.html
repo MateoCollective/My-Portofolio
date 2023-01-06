@@ -1,0 +1,103 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio - Alfin Firmansyah</title>
+    <meta name="description" content="Portofolio Alfin Firmansyah">
+    <meta name="keywords" content="Portofolio Alfin, Alfin Firmansyah, Alfin Septi Firmansyah">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://i.ibb.co/Gvb4DRM/IMG-20230106-201308-453.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+    <body>
+        <button class="btn" onclick="toggleDarkMode()">Theme</button>
+
+
+        <ul>
+            <li><a class="active" href="#tentang">Tentang</a></li>
+            <li><a href="#pengalaman">Pengalaman</a></li>
+            <li><a href="#pendidikan">Pendidikan</a></li>
+        </ul>
+
+
+
+        <div class="hero">
+            <article class="homeleft">
+                <div class="hometext">
+                    <img src="https://i.ibb.co/Gvb4DRM/IMG-20230106-201308-453.jpg" class="profile-image" alt="Alfin FIrmansyah"/>
+                    <p class="hallo">Hallo I'm</p>
+                    <p class="fullname">Alfin Septi Firmansyah</p>
+                    <p class="desc">Independent learners</p>
+                    <button href="" class="btncv"> Download CV</button>
+                </div>
+            </article>
+        </div>
+        </div>
+
+        <div id="tentang" class="tentangaku">
+            <p class="section-title">Tentang Saya</p>
+            <p class="tentangaku-desc">Nama saya Alfin Septi Firmansyah dan saya berasal dari Ciruas, Serang, Banten,
+                Indonesia. Saya adalah seorang web developer dan app designer yang memiliki minat khusus dalam membuat
+                aplikasi yang intuitif dan mudah digunakan. Saya juga tertarik pada web design dan logo design.</p>
+        </div>
+
+        <div id="pengalaman" class="tentangaku">
+            <p class="section-title">Pengalaman</p>
+            <p class="tentangaku-desc">Sebelumnya, saya bekerja di Intect Pedia sebagai UI designer dan logo designer.
+                Saya sangat tertarik dengan dunia teknologi dan selalu ingin belajar tentang cara membuat aplikasi yang
+                lebih baik. Saya juga suka menciptakan desain yang menarik dan bermanfaat bagi pengguna. Salah satu
+                proyek terbaik yang pernah saya kerjakan adalah membuat aplikasi Aquote. Saya belajar tentang cara
+                membuat antarmuka yang intuitif.</p>
+        </div>
+
+        <div id="pendidikan" class="pendidikan">
+            <p class="section-title">Pendidikan</p>
+            <div class="card-list">
+                <div class="card">
+                    <div class="card-content">
+                        <h3>SD NEGERI PERIUK</h3>
+                        <p>2012-2018</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <h3>SMP NEGERI 1 CIRUAS</h3>
+                        <p>2018-2020</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <h3>Tidak Bersekolah</h3>
+                        <p>Tidak ada Informasi</p>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+    </body>
+
+    </html>
+    <!-- partial -->
+
+</body>
+<script>
+    function toggleDarkMode() {
+        var body = document.getElementsByTagName("body")[0];
+        var currentClass = body.className;
+        body.className = currentClass == "dark-mode" ? "light-mode" : "dark-mode";
+    }
+</script>
+
+</html>
